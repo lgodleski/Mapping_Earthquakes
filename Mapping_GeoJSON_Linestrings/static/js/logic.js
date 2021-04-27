@@ -1,8 +1,4 @@
-// // Add console.log to check to see if our code is working.
-// console.log("working");
 
-// // Create the map object with center and zoom level
-// let map = L.map('mapid').setView([30, 30], 2);
 
 // We create the tile layer that will be the background of our map.
 let light = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
